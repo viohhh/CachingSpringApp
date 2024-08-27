@@ -1,4 +1,4 @@
-# spring-cache
+# spring-cache-app
 
-Cделать кеширование данныъ
+Cделать кеширование данных в сервисе BookService с помощью аннотаций Cacheable, CachePut, CacheEvict
 
