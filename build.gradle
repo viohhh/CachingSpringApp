@@ -18,8 +18,13 @@ repositories {
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-cache'
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
-	runtimeOnly 'org.postgresql:postgresql:42.1.4'
+    implementation 'org.projectlombok:lombok:1.18.22'
+    runtimeOnly 'org.postgresql:postgresql:42.1.4'
 
+	implementation 'org.springframework.boot:spring-boot-starter-tomcat'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'org.springframework.boot:spring-boot-starter-test'
+	implementation 'com.github.ben-manes.caffeine:caffeine'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter', version: '5.9.3'
 }
